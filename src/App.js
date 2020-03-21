@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import Counter from './concepts/core/02-state/counter';
+// import Counter from './concepts/core/02-state/counter';
+import Counter from './concepts/core/02-state/counter-list';
+
 
 function App() {
   return (
