@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Counter from './concepts/core/02-state/counter';
 
 function App() {
   return (
     <div className="container">
       <header className="header">
-        REACT TRAINING
+        <h1>REACT TRAINING</h1>
+        <hr/>
       </header>
+      <Counter />
     </div>
   );
 }
