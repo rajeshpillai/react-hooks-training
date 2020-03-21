@@ -2,7 +2,7 @@ import React, {useState} from  'react';
 
 export default function Counter(props) {
   const {value} = props;
-  const [counter, setCounter] = useState(value);
+  const [counter, setCounter] = useState(value || 0);
   return (
     <div className="container">
         <div className="d-flex justify-content-between w-25">
